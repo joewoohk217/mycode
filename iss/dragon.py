@@ -29,7 +29,7 @@ def main():
     # for-loop across astros
     # display names of those in space
     for item in data:
-        print(f"name is is:", item['name'])
+        print(f"name is:", item['name'])
 
 if __name__ == '__main__':
     main()
