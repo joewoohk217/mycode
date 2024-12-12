@@ -24,6 +24,16 @@ def main():
     # display our Pythonic data
     print("\n\nConverted Python data")
     print(apodread)
+
+    # display NASA keys
+    print("\n\nNASA keys")
+    print(apodread.keys())
+
+    # display NASA date 
+    print("\n\nNASA date")
+    print(apodread.get('date'))
+
+
     
 if __name__ == '__main__':
     main()
